@@ -30,6 +30,7 @@ public class Main {
         dolary(liczba1);
         euro(liczba2);
         //wiecej komentarzy
+        //jeszcze wiecej
 //        while(.)
 //    }    
     }
