@@ -29,7 +29,7 @@ public class Main {
         odejmowanie(liczba1, liczba2);
         dolary(liczba1);
         euro(liczba2);
-        
+        //wiecej komentarzy
 //        while(.)
 //    }    
     }
