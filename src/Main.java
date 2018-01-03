@@ -6,7 +6,9 @@ public class Main {
     public static void dodawanie(int x, int y){
         System.out.println("Suma: " + (x+y));
     }
-    
+    private static void odejmowanie(int x, int y){
+        System.out.println("Różnica: " +(x-y));
+    }
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +21,7 @@ public class Main {
         int liczba2 = scanner.nextInt();
         
         dodawanie(liczba1, liczba2);
-        
+        odejmowanie(liczba1, liczba2);
         
         
 //        while(.)
