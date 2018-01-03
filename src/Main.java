@@ -9,7 +9,9 @@ public class Main {
     private static void odejmowanie(int x, int y){
         System.out.println("Różnica: " +(x-y));
     }
-    
+    private static void dolary(int liczba1){
+        System.out.println("Liczba nr 1 na dolary (złotówki na dolary): " +(liczba1*3.65));
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -22,7 +24,7 @@ public class Main {
         
         dodawanie(liczba1, liczba2);
         odejmowanie(liczba1, liczba2);
-        
+        dolary(liczba1);
         
 //        while(.)
 //    }    
